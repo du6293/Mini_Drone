@@ -1,5 +1,6 @@
 # mini_drone
 
+https://www.youtube.com/watch?v=yMJ3bWivwfw&list=PLZlJypPEW-QmJ8V-05h_3_saUJU8ye0pW&index=6
 
 1.기본 부품
 
@@ -23,6 +24,7 @@ USB 포트에 컴퓨터와 연결을 하면 자동으로 전원이 인가되고 
 4.Raspberry Pi Zero 환경구축
 
   4-1.OS설치
+  
   ![4](https://user-images.githubusercontent.com/76850241/194636895-9e2759d7-00fb-4a2e-b639-dddbcaba2174.PNG)
   
   ![5](https://user-images.githubusercontent.com/76850241/194637184-7fb67d2c-ad98-4000-a1ac-35e23c79b7e0.PNG)
