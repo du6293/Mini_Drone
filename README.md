@@ -15,13 +15,19 @@ USB포트와 Power포트가 비슷하게 생김. power포트에 충전기를 연
 
 
 4.Raspberry Pi Zero 환경구축
+
   4-1.OS설치
   ![4](https://user-images.githubusercontent.com/76850241/194636895-9e2759d7-00fb-4a2e-b639-dddbcaba2174.PNG)
   ![5](https://user-images.githubusercontent.com/76850241/194637184-7fb67d2c-ad98-4000-a1ac-35e23c79b7e0.PNG)
   ![6](https://user-images.githubusercontent.com/76850241/194637457-791d748b-d678-473c-abe6-9d0b0d0e44fb.PNG)
+  
   PuTTY : 윈도우에서 ssh연결을 쉽게 하도록 도와주는 프로그램
+  
   라즈베리 홈페이지에서 balena etcher를 설치해서 SD 카드에 라즈베리파이 OS 설치
+  
   $ :컴퓨터에 입력하는 명령어
+
+
 
   4-2.serial 통신으로 드론을 제어하는 환경을 구축함
   PuTTY에 접속해 로그인 성공한 후의 과정
@@ -30,20 +36,25 @@ USB포트와 Power포트가 비슷하게 생김. power포트에 충전기를 연
   공유기가 연결된 노트북과 라즈베리 파이에 IP주소를 할당하므로, 라즈베리파이와 컴퓨터가 같은 공유기의 인터넷 주소를 가지고 있어야 함
   VNC viewer(Virtual Network Computing. 인터넷으로 연결된 컴퓨터에 원격으로 접근)프로그램으로 접속해 Raspberry OS를 이용해 serial 통신으로 드론을 제어하기 위한 환경을 만들어줌
 
+
+
+
   4-3.카메라를 통해 이미지를 받아올 수 있도록 이미지를 허용해 주는 과정
   라즈베리의 카메라와 허밍버드 드론 연결과정
-  ![KakaoTalk_20220727_212523070](https://user-images.githubusercontent.com/76850241/181916277-6ed485a6-9fb8-4041-a126-9c0b05dbd8cd.jpg)
+  
   ![10](https://user-images.githubusercontent.com/76850241/194640758-1e3ca7cf-4db3-4db3-9f0c-5c8c7ff125c1.PNG)
   
 
 
 
 5.드론을 제어하기 위한 Python 개발환경 구축과정
+
 ![9](https://user-images.githubusercontent.com/76850241/194639393-c9a82a56-03dc-4b9e-bcf4-f066571e723e.PNG)
 
 
 
 6.최종 허밍버드 드론 모습 & 대회 맵
+
   ![KakaoTalk_20220727_212523070](https://user-images.githubusercontent.com/76850241/181916277-6ed485a6-9fb8-4041-a126-9c0b05dbd8cd.jpg)
 
 ![KakaoTalk_20220727_212523070_01](https://user-images.githubusercontent.com/76850241/181916281-1da62a58-b4b0-4410-9022-565e19598268.jpg)
